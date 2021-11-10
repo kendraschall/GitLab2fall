@@ -3,12 +3,21 @@ rootProject.name = 'gitlab2'
 include "main", "test"
 plugins {
    id 'java'
+   id 'project-reort'
 }
 
 java {
     sourceCompatibility = JavaVersion.toVersion(11)
     targetCompatibility = JavaVersion.toVersion(11)
 }
+
+ javadoc{
+  options.with {
+     links 'https://docs.oracle.com/javase/8/docs/api/', 'gradle/javadocs/jdk'
+   }
+   failOnError = false;
+}
+build.dependsOn javadoc
 
 repositories {
     jcenter()
@@ -22,4 +31,13 @@ dependencies {
 test {
     ignoreFailures = true
     useJUnitPlatform()
+}
+
+
+reports(dependsOn: ['javadoc','test']){
+
+}
+
+deployReports(dependsOn: ['reports']){
+
 }
