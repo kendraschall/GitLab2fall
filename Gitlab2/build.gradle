@@ -1,6 +1,3 @@
-rootProject.name = 'gitlab2'
-
-include "main", "test"
 plugins {
    id 'java'
 }
