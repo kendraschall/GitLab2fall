@@ -1,8 +1,0 @@
--classpath 'C:\\Users\\kscha\\OneDrive\\Documents\\CS350\\flatImitation\\Gitlab2\\build\\classes\\java\\main;C:\\Users\\kscha\\OneDrive\\Documents\\CS350\\flatImitation\\Gitlab2\\build\\resources\\main'
--d 'C:\\Users\\kscha\\OneDrive\\Documents\\CS350\\flatImitation\\Gitlab2\\build\\docs\\javadoc'
--doctitle 'gitlab2 API'
--notimestamp 
--quiet 
--windowtitle 'gitlab2 API'
-'C:\\Users\\kscha\\OneDrive\\Documents\\CS350\\flatImitation\\Gitlab2\\src\\main\\java\\Author.java'
-'C:\\Users\\kscha\\OneDrive\\Documents\\CS350\\flatImitation\\Gitlab2\\src\\main\\java\\Vocabulary.java'
